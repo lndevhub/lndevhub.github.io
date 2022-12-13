@@ -1,0 +1,112 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-color:#000000;
+}
+
+#app {
+	margin: auto;
+	width: 90%;
+	padding: 20px;
+}
+
+.notes {
+	margin: auto;
+	width: 70%;
+  margin-top:-30px;
+	padding: 25px;
+}
+
+
+h1, h2, form{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color:#33ff33;
+}
+
+p {
+  margin: left 50px;
+  padding:30px;
+  text-align:left;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#33ff33;
+}
+
+a {
+  font-family:Arial, Helvetica, sans-serif;
+  color:#ffff33;
+  text-decoration:none;
+} 
+
+button{
+  display: block;
+  padding:10px;
+  margin: 20px auto;
+  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+  color:#33ff33;
+  background-color: #999999;
+}
+
+label {
+  padding:10px;
+}
+
+#promptOne {
+	margin-left:50px;
+	padding-left:50px;
+}
+
+textarea {
+  padding:10px;
+  color:#33ff33;
+  width:80%;
+}
+
+#theNotes {
+  background-color: #222222;
+  margin-top:20px;
+}
+
+ul{
+  width: 100px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  text-align: center;
+  width: 94px;
+  height: 49px;
+  border: 1px solid black;
+}
+h2{
+  font-size: 100px;
+  color:#33ff33;
+  font-weight: bold;
+}
+
+#displayNotes {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.2em;
+  color:#33ff33;
+  margin-left:35px;
+}
+
+footer {
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This app makes a semi-random composition">
+	<meta name="keywords" content="music, make money, all day, always get paid">
+
+	<title>OpenMPT JS Tracker Music Maker</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="app">
+		<h1>OpenMPT JS Tracker Music Maker</h1>
+
+		<p>This is a quick fun little Javascript app that composes random music for <a href="https://openmpt.org"
+				target="_blank">OpenMPT Tracker</a>. Simply enter some notes, select "Compose" or "Eights" for a random
+			composition, scroll down, copy the resulting text starting from ModPlug Tracker XM, and paste it into a
+			tracker channel in your project in OpenMPT. (Note: currently works for .xm projects at this point).</p>
+
+		<form>
+			<div class="notes"><label for="theNotes">Enter Notes Here (use commas, no spaces): </label>
+				<textarea id="theNotes" maxlength="128" rows="4" cols="50">C-4,G-4,D#5</textarea></div>
+			<div class="notes"><label for="presets">Select Preset: </label>
+				<select name="presets" id="presets">
+					<option value="rando">Compose</option>
+					<option value="eigths">Eigths</option>
+					<option value="edm">EDM</option>
+					<option value="breaks">Breakbeats</option>
+				</select>
+			</div>
+			<div class="presets"><label for="rows">Rows: </label>
+				<select name="rows" id="rows">
+					<option value="16">16</option>
+					<option value="32">32</option>
+					<option value="64">64</option>
+				</select>
+			</div>
+		</form>
+
+		<button id="compose" type="button" name="button">COMPOSE</button>
+
+
+		<p id="displayNotes"></p>
+	</div>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<footer>
+		<p>Check out the full source code on <a href="https://github.com/lndevhub/ModPlugJSComposer"
+				target="_blank">Github</a>.</p>
+	</footer>
+</body>
+
+</html>
