@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Autism Quiz</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="head">
+		<div class="title">
+			<h1 class="theme-text">Autism Quiz</h1>
+		</div>
+		<div class="github"><p class="theme-text">Check out my <a class="gith" href="https://github.com/lndevhub" target="_blank">Github</a> for more
+			full-stack projects!</p></div>
+	</header>
+
+
+	<main class="container">
+		<!-- Beginning Notes -->
+		<div id="notes">
+			<h1 class="head-text">Welcome!</h1>
+			<p class="quiznotes">Try to answer the following questions as best you can. There is no shame in not knowing
+				all the answers to the questions. The objective is to learn about autism and those who's brain wiring is unique. Click the "Begin" button below to get started!</p>
+			<button id="begin-btn" class="choice">Begin!</button>
+		</div>
+
+		<!-- Questions Appear Here -->
+		<div id="quiz">
+			<div class="testing-area">
+				<!-- Question -->
+				<h2 id="question" class="ask">What is a placeholder question?</h2>
+				<!-- Answers -->
+				<button id="answ0" type="button" class="choice">
+					answer 1</button><br />
+				<button id="answ1" type="button" class="choice">
+					answer 2</button><br />
+				<button id="answ2" type="button" class="choice">
+					answer 3</button><br />
+				<button id="answ3" type="button" class="choice">
+					answer 4
+				</button>
+				<hr />
+				<p id="result"></p>
+				<!-- Last question's results will appear here (is it correct or not?)-->
+			</div>
+		</div>
+
+		<!-- End of Quiz Screen -->
+		<div id="finish">
+			<div class="results">
+				<h1 class="restext">Quiz Complete!</h1>
+				<!-- User Score -->
+				<p id="final-result" class="restext">Your final score is XX.</p>
+				<!-- Enter Initials -->
+				<h2>Awesome job!</h2>
+				<p class="restext">Thank you for your testing your knowledge of neurodiversity today! Hopefully you learned something.
+					:)</p> <p class="restext">Please refresh your screen or go back and forward to restart the quiz again.</p>
+
+				<p id="last-result">last question feedback</p>
+			</div>
+		</div>
+	</main>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
