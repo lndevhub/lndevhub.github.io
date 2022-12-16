@@ -56,7 +56,7 @@ const questions = {
       incorr: [
         "mistake",
         "standard body language",
-        "demon",
+        "taste",
       ],
       correcta: "normal person",
       further: "Some people talk about autism like it is not part of who autistics are. They think there is secretly a “normal” person inside every autistic, and say autism keeps them from being normal. They want to get rid of autism so autistics can be normal, but no one can make autistics normal by getting rid of the autism. Autistic people are autistic all the way through. There is no normal person trapped inside an autistic person. Autism is just part of who they are. Being autistic can always be a good thing.",
