@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Tet-R-Us - with Sunvox Music and ZzFXMicro Sounds</title>
+</head>
+
+<body>
+    <div class="grid">
+      <canvas id="board" class="game-board"></canvas>
+      <div class="right-column">
+        <div>
+          <h1 class="text">TET-R-US</h1>
+          <p class="text">Score: <span id="score">0</span></p>
+          <p class="text">Lines: <span id="lines">0</span></p>
+          <p class="text">Level: <span id="level">0</span></p>
+          <canvas id="next" class="next"></canvas>
+        </div>
+        <label for="music">Select Music/Mode before playing: </label>
+        <select name="music" id="music">
+          <option value="one">Grey One</option>
+          <option value="two">Grey Two</option>
+          <option value="three">Dark One</option>
+          <option value="four">Dark Two</option>
+        </select>
+        <button onclick="bgmStyle()" class="settings-button">Grey/Dark</button>
+        <button onclick="play()" class="play-button">Play</button>
+        <div id="status"></div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/sunvox.js"></script>
+  <script type="text/javascript" src="js/sunvox_lib_loader.js"></script>
+  <script type="text/javascript" src="js/ZzFXMicro.min.js"></script>
+  <script type="text/javascript" src="js/constants.js"></script>
+  <script type="text/javascript" src="js/board.js"></script>
+  <script type="text/javascript" src="js/piece.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
