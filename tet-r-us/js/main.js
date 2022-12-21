@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d')
 const canvasNext = document.getElementById('next')
 const ctxNext = canvasNext.getContext('2d')
 let boardcolor = "black"
-let bgm = "bgm/m01.sunvox"
+let bgm = "/tet-r-us/bgm/m01.sunvox"
 let tune = document.querySelector('#music');
 
 
@@ -17,25 +17,25 @@ function bgmStyle() {
 
     if (music === "one") {
         boardcolor = "black"
-        bgm = "/bgm/m01.sunvox"
+        bgm = "/tet-r-us/bgm/m01.sunvox"
         document.body.style.backgroundColor = "grey"
         document.body.style.color = "black"
         canvas.style.borderColor = boardcolor;
     } else if (music === "two") {
         boardcolor = "black"
-        bgm = "/bgm/m02.sunvox"
+        bgm = "/tet-r-us/bgm/m02.sunvox"
         document.body.style.backgroundColor = "grey"
         document.body.style.color = "black"
         canvas.style.borderColor = boardcolor;
     } else if (music === "three") {
         boardcolor = "white"
-        bgm = "/bgm/m03.sunvox"
+        bgm = "/tet-r-us/bgm/m03.sunvox"
         document.body.style.backgroundColor = "black"
         document.body.style.color = "white"
         canvas.style.borderColor = boardcolor;
     } else if (music === "four") {
         boardcolor = "white"
-        bgm = "/bgm/m04.sunvox"
+        bgm = "/tet-r-us/bgm/m04.sunvox"
         document.body.style.backgroundColor = "black"
         document.body.style.color = "white"
         canvas.style.borderColor = boardcolor;
