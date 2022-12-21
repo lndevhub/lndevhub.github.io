@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d')
 const canvasNext = document.getElementById('next')
 const ctxNext = canvasNext.getContext('2d')
 let boardcolor = "black"
-let bgm = "../bgm/m01.sunvox"
+let bgm = "bgm/m01.sunvox"
 let tune = document.querySelector('#music');
 
 
